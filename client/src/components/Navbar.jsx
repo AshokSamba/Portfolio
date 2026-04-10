@@ -32,6 +32,7 @@ const Navbar = () => {
                   smooth={true} 
                   duration={500} 
                   spy={true}
+                  offset={-80}
                   activeClass="text-purple-400 border-b-2 border-purple-500 scale-105"
                   className="cursor-pointer hover:text-purple-400 px-3 py-2 transition-all uppercase text-xs font-bold tracking-widest"
                 >
@@ -65,6 +66,7 @@ const Navbar = () => {
               smooth={true} 
               duration={500} 
               spy={true}
+              offset={-80}
               onClick={() => setIsOpen(false)}
               className="block cursor-pointer hover:bg-purple-600/20 hover:text-purple-400 px-3 py-4 rounded-md text-base font-extrabold tracking-widest uppercase transition-all"
             >

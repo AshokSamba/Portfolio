@@ -10,7 +10,7 @@ const Home = () => {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight"
+            className="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-6 leading-tight"
           >
             Hi, I am <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">Samba Ashok</span>
